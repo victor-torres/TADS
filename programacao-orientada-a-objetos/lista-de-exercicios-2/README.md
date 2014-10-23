@@ -18,4 +18,59 @@
 7. Ler uma data no formato "dd/mm/aaaa" e mostrar no formato "dd de mês de aaaa"
 	```	Digite uma data no formato dd/mm/aaaa 11/08/2013	A data é 11 de agosto de 2013	```
 8. Ler uma string com dois valores inteiros positivos entre um operador ( +, –, * ou / ) e calcular o resultado da operação matemática utilizando estes valores e o operador.
-	```	Digite dois valores inteiros separados por um operador +, -, * ou / 20+100	O resultado da operação é 120	```---Prof. Gilbert Azevedo da Silva
+	```	Digite dois valores inteiros separados por um operador +, -, * ou / 20+100	O resultado da operação é 120	```### II. Repetição
+1. Mostrar os inteiros de 1 a 10 em ordem crescente.	```	Resultado: 1 2 3 4 5 6 7 8 9 10	```
+
+2. Mostrar os inteiros de 1 a 10 em ordem decrescente. 
+
+	```
+	Resultado: 10 9 8 7 6 5 4 3 2 13.
+	```
+
+3. Mostrar a sequência de números abaixo. 
+	```	Resultado: 1 -2 3 -4 5 -6 7 -8 9 -10	```
+Obs: Sequência dada pelos números de 1 a 10, invertendo o sinal. 
+4. Mostrar a sequência de números abaixo.
+	```	Resultado: 1 2 4 7 11 16 22 29 37 46	```
+	Obs: Sequência inicia com 1, a partir daí, soma o primeiro valor com 1, o segundo valor com 2, o terceiro com 3, o quarto por 4 e assim por diante.5. Ler uma frase e mostrar as strings obtidas a partir desta, removendo uma a uma a palavra no início.
+	```	Digite uma frase:	Técnico em Informática para Internet		em Informática para Internet
+	Informática para Internet 
+	para Internet	Internet	```
+6. Ler uma frase e mostrá-la repetidas vezes, de acordo com o número de caracteres desta, informando o número da repetição antes da frase.
+	```	Digite uma frase:
+	Brasil
+		1 - Brasil	2 - Brasil 
+	3 - Brasil 
+	4 - Brasil 
+	5 - Brasil 
+	6 - Brasil
+	```7. Ler uma frase e mostrar as strings obtidas a partir desta, passando uma a uma a letra inicial para o final, até que a frase inicial seja apresentada.
+	```	Digite uma frase: 	Brasil
+		rasilB 	asilBr 	silBra 
+	ilBras 
+	lBrasi 
+	Brasil	```
+
+8. Ler uma frase e contar o número de palavras.
+
+	```	Digite uma frase:
+		Técnico em Informática para Internet	5	```
+9. Ler uma frase e mostrar cada uma de suas palavras separadamente.
+	```	Digite uma frase:	Técnico em Informática para Internet
+	Técnico 	em 
+	Informática 
+	para 
+	Internet	```
+10. Ler uma frase e mostrar de trás para frente.
+	```	Digite uma frase:	Técnico em Informática para Internet
+		tenretnI arap acitámrofni me ocincéT	```
+11. Ler uma frase e montar uma senha formada pelo número de caracteres de cada palavra.
+	```	Digite uma frase:	Técnico em Informática para Internet
+		721148	```
+12. Ler uma sequência de números inteiros separados por vírgula e calcula a soma destes valores.
+	```	Digite uma sequência de números separados por vírgula: 
+	1,2,3,4,5	Soma = 15	```
+13. Mostrar a sequência de números abaixo.
+	```	Resultado: 1 2 3 6 4 5 6 15 7 8 9 24 ... 28 29 30 87	```Obs: Sequência de valores de 1 a 30, incluindo a cada três valores a soma dos três elementos anteriores.
+14. Mostrar a tabuada de 1 a 10.
+	```	Tabuada de 1 	1x1=1 1x2=2	...	1 x 10 = 10 	Tabuada de 2	2x1=2 2x2=4	...	2 x 10 = 20	...	Tabuada de 10 	10 x 1 = 10	10 x 2 = 20	...	10 x 10 = 100	```---Prof. Gilbert Azevedo da Silva
