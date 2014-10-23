@@ -12,7 +12,7 @@
 // Veja também a classe Normalize do C# na página da MSDN.
 // --> http://msdn.microsoft.com/pt-br/library/8eaxk1x2(v=vs.110).aspx
 
-namespace Parte2Exercicio8
+namespace Parte2Exercicio11
 {
 	class MainClass
 	{

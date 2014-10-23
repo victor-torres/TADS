@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Parte2Exercicio8
+namespace Parte2Exercicio10
 {
 	class MainClass
 	{
