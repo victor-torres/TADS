@@ -18,19 +18,24 @@ main:
 	j	segundo
 	
 primeiro:
+	# O primeiro número é umcandidato a maior número
 	add	$11, $0, $8
 	j 	verificaTerceiro
 	
 segundo:
+	# O segundo número é umcandidato a maior número
 	add	$11, $0, $9
 	j 	verificaTerceiro
 	
 verificaTerceiro:
+	# Verifica se o terceiro número é maior que o outro candidato
 	bgt 	$10, $11, terceiro
+	# O candidato é o maior número
 	add 	$4, $0, $11
 	j 	fim
 	
 terceiro:
+	# O terceiro é o maior número
 	add 	$4, $0, $10
 	j	fim
 	
