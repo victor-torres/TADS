@@ -29,10 +29,10 @@
 
 3. Mostrar a sequência de números abaixo. 
 	```	Resultado: 1 -2 3 -4 5 -6 7 -8 9 -10	```
-Obs: Sequência dada pelos números de 1 a 10, invertendo o sinal. 
+	Obs: Sequência dada pelos números de 1 a 10, invertendo o sinal. 
 4. Mostrar a sequência de números abaixo.
 	```	Resultado: 1 2 4 7 11 16 22 29 37 46	```
-	Obs: Sequência inicia com 1, a partir daí, soma o primeiro valor com 1, o segundo valor com 2, o terceiro com 3, o quarto por 4 e assim por diante.5. Ler uma frase e mostrar as strings obtidas a partir desta, removendo uma a uma a palavra no início.
+		Obs: Sequência inicia com 1, a partir daí, soma o primeiro valor com 1, o segundo valor com 2, o terceiro com 3, o quarto por 4 e assim por diante.5. Ler uma frase e mostrar as strings obtidas a partir desta, removendo uma a uma a palavra no início.
 	```	Digite uma frase:	Técnico em Informática para Internet		em Informática para Internet
 	Informática para Internet 
 	para Internet	Internet	```
@@ -71,6 +71,16 @@
 	```	Digite uma sequência de números separados por vírgula: 
 	1,2,3,4,5	Soma = 15	```
 13. Mostrar a sequência de números abaixo.
-	```	Resultado: 1 2 3 6 4 5 6 15 7 8 9 24 ... 28 29 30 87	```Obs: Sequência de valores de 1 a 30, incluindo a cada três valores a soma dos três elementos anteriores.
+	```	Resultado: 1 2 3 6 4 5 6 15 7 8 9 24 ... 28 29 30 87	```	Obs: Sequência de valores de 1 a 30, incluindo a cada três valores a soma dos três elementos anteriores.
 14. Mostrar a tabuada de 1 a 10.
-	```	Tabuada de 1 	1x1=1 1x2=2	...	1 x 10 = 10 	Tabuada de 2	2x1=2 2x2=4	...	2 x 10 = 20	...	Tabuada de 10 	10 x 1 = 10	10 x 2 = 20	...	10 x 10 = 100	```---Prof. Gilbert Azevedo da Silva
+	```	Tabuada de 1 	1x1=1 1x2=2	...	1 x 10 = 10 	Tabuada de 2	2x1=2 2x2=4	...	2 x 10 = 20	...	Tabuada de 10 	10 x 1 = 10	10 x 2 = 20	...	10 x 10 = 100	```### III. Métodos
+1. Ler um nome e apresentar todas as suas iniciais, utilizando o método Iniciais cujo protótipo é apresentado abaixo.	```	string Iniciais(string s)
+	```
+2. Ler uma frase e gerar uma senha formada pelo número de caracteres de cada palavra da frase, utilizando o método Senha cujo protótipo é apresentado abaixo.	```	string Senha(string s)
+	```
+3. Ler o mês e o ano de uma data e retornar a data do último dia do mês no formato "dd/mm/aaaa", utilizando o método UltimoDia cujo protótipo é apresentado abaixo.	```	string UltimoDia(int mes, int ano)	```
+4. Ler uma data de nascimento no formato "dd/mm/aaaa" e calcular a idade em meses e anos, considerando o dia atual como referência, utilizando o método Idade cujo protótipo é apresentado abaixo.	```	void Idade(string data, out int anos, out int meses)
+	```5. Obter a soma dos números em um intervalo, utilizando o método Soma cujo protótipo é apresentado abaixo.	```	int Soma(int inicio, int fim)
+	```6. Ler dois números e calcular o MDC e o MMC entre eles, utilizando os métodos abaixo:
+	```	int MDC(int x, int y)	int MMC(int x, int y)	```
+---Prof. Gilbert Azevedo da Silva
