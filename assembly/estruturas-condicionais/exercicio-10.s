@@ -8,6 +8,7 @@ main:
 	# 9		| Ano
 	# 10		| Auxiliar
 	# 11		| Auxiliar
+	# 15		| Auxiliar (último valor do [dia/mês/ano])
 	
 	j 	leitura
 
