@@ -1,4 +1,4 @@
 # Lista 3
 
-## ￼Implementar classes em C# para representar:1. Um círculo (figura geométrica): a classe deve ter o atributo raio e métodos para calcular a área e a circunferência do círculo.
+## ￼Implementar classes em C# para representar:1. __Um círculo (figura geométrica)__: a classe deve ter o atributo raio e métodos para calcular a área e a circunferência do círculo.2. __Um número racional__: os atributos da classe devem ser o numerador e denominador da fração (números inteiros). Os métodos da classe devem possibilitar a realização das operações de adição, subtração, multiplicação e divisão entre dois números racionais. Deve também possuir um método para simplificar a fração, obtendo o menor numerador e denominador possível.
 ---Prof. Gilbert Azevedo da Silva
